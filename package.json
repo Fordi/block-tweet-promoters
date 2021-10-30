@@ -1,9 +1,9 @@
 {
-  "name": "extension-name",
+  "name": "block-tweet-promoters",
   "manifest": {
     "manifest_version": 2,
     "browser_action": {},
-    "name": "Extension name",
+    "name": "Block Tweet Promoters",
     "content_scripts": [
       {
         "matches": [

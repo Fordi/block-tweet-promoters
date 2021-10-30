@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "browser_action": {},
+  "name": "Block Tweet Promoters",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/*"
+      ],
+      "js": [
+        "extension.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "src/index.js"
+  ]
+}

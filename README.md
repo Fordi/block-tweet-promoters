@@ -1,12 +1,11 @@
-Browser Extension Template
---------------------------
+Block Tweet Promoters
+---------------------
 
-This is a template repository for building a simple on-page Chromium / Firefox extension.
+For a very long time, I've claimed, "If you promote a tweet to my feed, I'll block you" - so I wrote a Chrome extension that blocks the users that "promote" their tweets automatically.
 
 ## Development
 
-* Click "Use this template" on github and follow the prompts to create your own repo
-* Run `npm i` to generate a `package-lock.json` and `manifest.json` and commit them
+* Run `npm i`
 * Run `npm run watch` to build and maintain a `manifest.json` while you work
 * Update stuff in `package.json` as needed.  Specifically `name`, `version`,
   and any properites you want in the extension manifest under `manifest`.
